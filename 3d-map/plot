@@ -1,0 +1,6 @@
+set pm3d map
+#set pm3d interpolate 2,2 ## doubling xy 'pixels'
+#set pm3d interpolate 0,0 ## optimal interpolation
+splot 'data' matrix
+pause 3
+rerea

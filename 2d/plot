@@ -1,0 +1,4 @@
+set terminal x11
+set grid
+plot "< tail -20 data.txt" with steps
+reread
